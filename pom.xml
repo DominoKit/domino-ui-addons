@@ -5,6 +5,9 @@
     <groupId>org.dominokit</groupId>
     <artifactId>domino-ui-addons</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>sample-addon</module>
+    </modules>
     <packaging>pom</packaging>
 
     <name>domino-ui-addons</name>
@@ -80,6 +83,19 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.dominokit</groupId>
+                <artifactId>domino-ui</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.dominokit</groupId>
+                <artifactId>domino-ui</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <scope>provided</scope>
+                <classifier>sources</classifier>
+            </dependency>
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
