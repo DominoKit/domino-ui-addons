@@ -8,7 +8,7 @@ import static org.jboss.gwt.elemento.core.Elements.h;
 
 public class SampleComponent extends BaseDominoElement<HTMLDivElement, SampleComponent> {
 
-    private DominoElement<HTMLDivElement> root =DominoElement.div();
+    private DominoElement<HTMLDivElement> root = DominoElement.div();
 
     public SampleComponent() {
         init(this);
