@@ -40,7 +40,7 @@
                 <artifactId>gwt-maven-plugin</artifactId>
                 <extensions>true</extensions>
                 <configuration>
-                    <moduleName>org.dominokit.addons.SampleAddon</moduleName>
+                    <moduleName>org.dominokit.addons.sample.SampleAddon</moduleName>
                 </configuration>
             </plugin>
             <plugin>

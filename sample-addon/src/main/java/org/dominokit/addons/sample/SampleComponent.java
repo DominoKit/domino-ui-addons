@@ -1,4 +1,4 @@
-package org.dominokit.addons.sampleaddon.client;
+package org.dominokit.addons.sample;
 
 import elemental2.dom.HTMLDivElement;
 import org.dominokit.domino.ui.utils.BaseDominoElement;
