@@ -4,11 +4,11 @@ import elemental2.dom.HTMLDivElement;
 import org.dominokit.domino.ui.utils.BaseDominoElement;
 import org.dominokit.domino.ui.utils.DominoElement;
 
-public class MapComponent extends BaseDominoElement<HTMLDivElement, MapComponent> {
+public class MapView extends BaseDominoElement<HTMLDivElement, MapView> {
 
     private DominoElement<HTMLDivElement> mapContainer = DominoElement.div();
 
-    public MapComponent(String mapId) {
+    public MapView(String mapId) {
         init(this);
         this.mapContainer.setAttribute("id", mapId);
     }
