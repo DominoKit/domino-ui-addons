@@ -10,9 +10,9 @@
     <packaging>gwt-lib</packaging>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sample-addon</artifactId>
+    <artifactId>domino-ui-sample-addon</artifactId>
 
-    <name>sample-addon</name>
+    <name>domino-ui-sample-addon</name>
     <url>https://github.com/DominoKit/domino-ui-addons</url>
 
     <dependencies>
