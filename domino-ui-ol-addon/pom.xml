@@ -40,7 +40,7 @@
                 <artifactId>gwt-maven-plugin</artifactId>
                 <extensions>true</extensions>
                 <configuration>
-                    <moduleName>org.dominokit.addons.OLMapAddon</moduleName>
+                    <moduleName>org.dominokit.addons.ol.OLMapAddon</moduleName>
                 </configuration>
             </plugin>
             <plugin>
