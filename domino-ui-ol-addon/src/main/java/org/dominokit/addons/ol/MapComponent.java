@@ -1,4 +1,4 @@
-package org.dominokit.addons.ol.client;
+package org.dominokit.addons.ol;
 
 import elemental2.dom.HTMLDivElement;
 import org.dominokit.domino.ui.utils.BaseDominoElement;
