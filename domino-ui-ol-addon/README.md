@@ -26,4 +26,4 @@ With this addon you can simply integrate maps in your Domino-UI-based applicatio
 <link href="//cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v[x.x.x]/css/ol.css" rel="stylesheet" type="text/css">
 <script src="//cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v[x.x.x]/build/ol.js" type="text/javascript"></script>
 ```
-Replace `[x.x.x]` with the OpenLayers version you want to use.
+Replace `[x.x.x]` with the [OpenLayers](http://openlayers.org/ "OpenLayers website") version you want to use.
