@@ -8,12 +8,12 @@ With this addon you can simply integrate maps in your Domino-UI-based applicatio
 ```xml
 <dependency>
   <groupId>org.dominokit</groupId>
-  <artifactId>domino-ui-ol-addon</artifactId>
+  <artifactId>domino-ui-map-addon</artifactId>
   <version>1.0-SNAPSHOT</version>
 </dependency>
 <dependency>
   <groupId>org.dominokit</groupId>
-  <artifactId>domino-ui-ol-addon</artifactId>
+  <artifactId>domino-ui-map-addon</artifactId>
   <version>1.0-SNAPSHOT</version>
   <classifier>sources</classifier>
 </dependency>
