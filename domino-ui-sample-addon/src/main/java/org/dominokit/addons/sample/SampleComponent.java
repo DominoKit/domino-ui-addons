@@ -16,7 +16,7 @@ public class SampleComponent extends BaseDominoElement<HTMLDivElement, SampleCom
     }
 
     @Override
-    public HTMLDivElement asElement() {
-        return root.asElement();
+    public HTMLDivElement element() {
+        return root.element();
     }
 }
