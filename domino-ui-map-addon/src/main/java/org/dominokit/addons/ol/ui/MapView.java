@@ -14,8 +14,8 @@ public class MapView extends BaseDominoElement<HTMLDivElement, MapView> {
     }
 
     @Override
-    public HTMLDivElement asElement() {
-        return this.mapContainer.asElement();
+    public HTMLDivElement element() {
+        return this.mapContainer.element();
     }
 
 }

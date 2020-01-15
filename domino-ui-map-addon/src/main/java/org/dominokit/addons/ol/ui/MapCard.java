@@ -29,8 +29,8 @@ public class MapCard extends BaseDominoElement<HTMLDivElement, MapCard> {
     }
 
     @Override
-    public HTMLDivElement asElement() {
-        return this.mapCard.asElement();
+    public HTMLDivElement element() {
+        return this.mapCard.element();
     }
 
     public final Card getCard() {
