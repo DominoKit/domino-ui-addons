@@ -4,7 +4,7 @@ import elemental2.dom.HTMLDivElement;
 import org.dominokit.domino.ui.utils.BaseDominoElement;
 import org.dominokit.domino.ui.utils.DominoElement;
 
-import static org.jboss.gwt.elemento.core.Elements.h;
+import static org.jboss.elemento.Elements.h;
 
 public class SampleComponent extends BaseDominoElement<HTMLDivElement, SampleComponent> {
 
