@@ -28,6 +28,13 @@ With this addon you can simply integrate maps in your Domino-UI-based applicatio
 ```
 Replace `[x.x.x]` with the [OpenLayers](http://openlayers.org/ "OpenLayers website") version you want to use.
 
+### GWT Module XML
+
+Add the following snippet to your .gwt.xml file:
+```xml
+<inherits name='org.dominokit.addons.ol.OLMapAddon'/>
+```
+
 ## Demo application
 
 This [demo](https://github.com/TDesjardins/domino-map-demo) represents a basic sample application with domino-ui-ol-addon usage. 
