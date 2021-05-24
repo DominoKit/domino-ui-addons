@@ -17,7 +17,7 @@
 
     <properties>
         <!-- gwt-ol version -->
-        <gwtol.version>8.0.0</gwtol.version>
+        <gwtol.version>8.1.0</gwtol.version>
     </properties>
 
     <dependencies>
