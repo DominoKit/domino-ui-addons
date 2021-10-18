@@ -1,3 +1,7 @@
+[![Development Build Status](https://github.com/DominoKit/domino-ui-addons/actions/workflows/deploy.yaml/badge.svg?branch=development)](https://github.com/DominoKit/domino-ui-addons/actions/workflows/deploy.yaml/badge.svg?branch=development)
+![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.dominokit/domino-ui-addons/badge.svg)
+![Sonatype Nexus (Snapshots)](https://img.shields.io/badge/Snapshot-HEAD--SNAPSHOT-orange)
+
 # Map extension for Domino-UI based on GWT-OL
 
 With this addon you can simply integrate maps in your Domino-UI-based application.
@@ -5,20 +9,41 @@ With this addon you can simply integrate maps in your Domino-UI-based applicatio
 ## Project Setup
 
 ### Maven dependency
+
+**Latest development**
+
 ```xml
 <dependency>
   <groupId>org.dominokit</groupId>
   <artifactId>domino-ui-map-addon</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>HEAD-SNAPSHOT</version>
 </dependency>
 <dependency>
   <groupId>org.dominokit</groupId>
   <artifactId>domino-ui-map-addon</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>HEAD-SNAPSHOT</version>
   <classifier>sources</classifier>
 </dependency>
 
 ```
+
+**Latest release**
+
+```xml
+<dependency>
+  <groupId>org.dominokit</groupId>
+  <artifactId>domino-ui-map-addon</artifactId>
+  <version>1.0.0-RC1</version>
+</dependency>
+<dependency>
+  <groupId>org.dominokit</groupId>
+  <artifactId>domino-ui-map-addon</artifactId>
+  <version>1.0.0-RC1</version>
+  <classifier>sources</classifier>
+</dependency>
+
+```
+
 
 ### Resources
 
